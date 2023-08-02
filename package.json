@@ -1,0 +1,26 @@
+{
+  "name": "erc20bot",
+  "version": "1.0.0",
+  "description": "ERC20 token deployer bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "@types/node": "14.14.14",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "ethereumjs-abi": "^0.6.8",
+    "ethers": "^5.7.2",
+    "http": "^0.0.1-security",
+    "https-proxy-agent": "^5.0.1",
+    "markdown-escape": "^2.0.0",
+    "telegraf": "^4.12.2",
+    "ts-node": "9.1.1",
+    "undici": "^5.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
